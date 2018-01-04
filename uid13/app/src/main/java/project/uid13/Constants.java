@@ -6,6 +6,7 @@ package project.uid13;
 
 public class Constants {
 
-    public static final String USER_1_EMAIL = "ana.popa@student.utcluj.ro";
+    public static final String USER_1_NAME = "Anca Popa";
+    public static final String USER_1_EMAIL = "anca.popa@cs.utcluj.ro";
     public static final String USER_1_PASSWORD = "a123";
 }

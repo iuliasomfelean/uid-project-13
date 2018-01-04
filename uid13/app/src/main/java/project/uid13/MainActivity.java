@@ -2,19 +2,13 @@ package project.uid13;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import java.io.Console;
-import java.io.IOException;
 
 import static project.uid13.Constants.*;
 
@@ -79,15 +73,16 @@ public class MainActivity extends AppCompatActivity {
                             passwordValid = USER_1_PASSWORD.equals(password);
 
                         if (emailValid && passwordValid) {
+//                        if(true){
                             Toast.makeText(getApplicationContext(), "Log in successful!", Toast.LENGTH_SHORT).show();
 //                            passwordValidity.setText("");
 //                            emailValidity.setText("");
 //                            loginStatus.setText("Login succesful");
 //                            loginStatus.setTextColor(Color.GREEN);
 
-//                            Intent intent = new Intent(AuthenticationActivity.this, OffersListActivity.class);
+                            Intent intent = new Intent(MainActivity.this, HomepageActivity.class);
 //                            intent.putExtra("email", email);
-//                            startActivity(intent);
+                            startActivity(intent);
                         } else {
                             Toast.makeText(getApplicationContext(), "Log in failed!", Toast.LENGTH_SHORT).show();
 //                            loginStatus.setText("Login unsuccesful");
