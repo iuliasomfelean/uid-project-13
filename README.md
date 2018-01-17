@@ -4,7 +4,7 @@ UID Project - News feed and notifications with feedback for universities
 - Added authentication functionality.
 Credentials:
 	Email : anca.popa@cs.utcluj.ro
-	Password: a123
+	Password: anca
 
 - Added side menu
 	Issue: couldn't manage to get rid of the turqoise color from the menu, maybe someone else could give a check
