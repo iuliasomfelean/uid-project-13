@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="project.uid13.MainActivity"
+
     tools:layout_editor_absoluteY="81dp">
 
     <TextView
@@ -35,6 +36,7 @@
         android:layout_height="48dp"
         android:layout_marginBottom="40dp"
         android:layout_marginEnd="48dp"
+
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
