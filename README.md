@@ -1,12 +1,14 @@
 # uid-project-13
-UID Project - News feed and notifications with feedback for universities
+User Interface Design Project - News feed and notifications with feedback for universities
 
-- Added authentication functionality.
-Credentials:
+
+Credentials for a demo user:
 	Email : anca.popa@cs.utcluj.ro
 	Password: anca
 
 Project members: 
 Stoica Razvan
+
 Pascaru Cosmina
+
 Somfelean Iulia
